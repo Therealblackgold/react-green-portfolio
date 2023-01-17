@@ -1,0 +1,16 @@
+.about {
+  padding: 8em 0;
+}
+
+.about-wrapper {
+  background-color: #151515;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -60px;
+  border: 1px solid green;
+}
+
+.list-group-bg {
+  background-color: rgba(128, 128, 128, 0.494) !important;
+}

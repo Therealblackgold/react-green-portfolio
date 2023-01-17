@@ -1,0 +1,48 @@
+.blogs {
+  padding: 8em 0 5em 0;
+  background-image: url("../../assets/img/contact-bg.jpg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.blog-wrapper {
+  border: 1px solid green;
+  background-color: #262626;
+  color: #fefefe;
+  border-radius: 10px;
+  padding: 1em;
+  margin: 2em 0;
+}
+
+.blog-wrapper img {
+  width: 100% !important;
+  height: auto !important;
+}
+
+.blog-light {
+  /* background-color: whitesmoke; */
+  /* color: #262626; */
+  padding: 1em;
+}
+
+.expend-btn {
+  color: var(--GREEN-COLOR) !important;
+  border: 1px solid rgba(245, 245, 245, 0.728);
+}
+
+.expend-btn:hover {
+  color: green;
+  border: 1px solid green;
+}
+
+.slide-in-left {
+  -webkit-animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.slide-in-right {
+  -webkit-animation: slide-in-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: slide-in-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}

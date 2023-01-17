@@ -85,7 +85,7 @@ const Projects = () => {
       <Container>
         <Row>
           <Col>
-            <h2>Projects</h2>
+            <h2 className="mb-5">Projects</h2>
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <Nav
                 variant="pills"

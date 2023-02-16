@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/react-green-portfolio/static/css/main.9be55e28.css",
-    "main.js": "/react-green-portfolio/static/js/main.3a07d17d.js",
+    "main.css": "/react-green-portfolio/static/css/main.d7c9b448.css",
+    "main.js": "/react-green-portfolio/static/js/main.42ef6627.js",
     "static/js/787.fb771931.chunk.js": "/react-green-portfolio/static/js/787.fb771931.chunk.js",
     "static/media/color-sharp.png": "/react-green-portfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/react-green-portfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/preco-careers.png": "/react-green-portfolio/static/media/preco-careers.2751267ea6817ca1992f.png",
+    "static/media/ecom.png": "/react-green-portfolio/static/media/ecom.37cd7d6669a2b51e9c5a.png",
     "static/media/gauta ncholo-resume.pdf": "/react-green-portfolio/static/media/gauta ncholo-resume.660351cca4f9edee6042.pdf",
     "static/media/header-me.png": "/react-green-portfolio/static/media/header-me.1ac64a1148a4c203e87b.png",
     "static/media/bootstrap-icons.woff?": "/react-green-portfolio/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
@@ -12,6 +14,7 @@
     "static/media/project-img6.png": "/react-green-portfolio/static/media/project-img6.df7e99c208782edf6267.png",
     "static/media/CentraNo2-Bold.ttf": "/react-green-portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/react-green-portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/preco-care.png": "/react-green-portfolio/static/media/preco-care.131bb90f09ff686fbe4e.png",
     "static/media/CentraNo2-Book.ttf": "/react-green-portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/project-img3.png": "/react-green-portfolio/static/media/project-img3.5091a0dae69b10c03b7b.png",
     "static/media/footer-bg.png": "/react-green-portfolio/static/media/footer-bg.29581861b648aeb4c8bd.png",
@@ -41,12 +44,12 @@
     "index.html": "/react-green-portfolio/index.html",
     "static/media/nav-icon1.svg": "/react-green-portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/nav-icon2.svg": "/react-green-portfolio/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.9be55e28.css.map": "/react-green-portfolio/static/css/main.9be55e28.css.map",
-    "main.3a07d17d.js.map": "/react-green-portfolio/static/js/main.3a07d17d.js.map",
+    "main.d7c9b448.css.map": "/react-green-portfolio/static/css/main.d7c9b448.css.map",
+    "main.42ef6627.js.map": "/react-green-portfolio/static/js/main.42ef6627.js.map",
     "787.fb771931.chunk.js.map": "/react-green-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9be55e28.css",
-    "static/js/main.3a07d17d.js"
+    "static/css/main.d7c9b448.css",
+    "static/js/main.42ef6627.js"
   ]
 }

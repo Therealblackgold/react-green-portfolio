@@ -29,7 +29,7 @@ const About = () => {
                   Complete Python Bootcamp: Zero to Hero By Jose Portilla
                 </ListGroup.Item>
                 <ListGroup.Item as="li">
-                  CPython & Django Full Stack Web Developer Bootcamp By Jose
+                  Python & Django Full Stack Web Developer Bootcamp By Jose
                   Portilla
                 </ListGroup.Item>
                 <ListGroup.Item as="li">

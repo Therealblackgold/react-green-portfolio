@@ -51,30 +51,15 @@ span.navbar-text {
   border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-.social-icon a::before {
-  content: "";
-  width: 42px;
-  height: 42px;
-  position: absolute;
-  background-color: var(--TEXT-COLOR);
-  border-radius: 50px;
-  transform: scale(0);
-  transition: 0.3s ease-in-out;
-}
-
 .social-icon a:hover::before {
   transform: scale(1);
 }
 
-.social-icon a img {
-  width: 40%;
-  z-index: 1;
-  transition: 0.3s ease-in-out;
+.social-icon a i:hover {
+  color: #155534;
 }
-
-.social-icon a:hover img {
-  filter: brightness(0), saturate(100%),
-    invert(0%) sepia(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
+.social-icon a:hover {
+  background-color: var(--TEXT-COLOR);
 }
 
 .navbar-text button {

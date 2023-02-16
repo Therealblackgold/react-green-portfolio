@@ -4,10 +4,14 @@ import logo from "../../assets/img/logo.png";
 import resume from "../../assets/gauta ncholo-resume.pdf";
 import { LinkContainer } from "react-router-bootstrap";
 import "./NavBar.css";
+import { useLocation } from "react-router-dom";
 
 const Navigation = () => {
   // active link state
   const [activeLink, setActiveLink] = useState("home");
+
+  // destructuring pathname from useLocation
+  const { pathname } = useLocation();
 
   // user scrolled state
   const [scrolled, setScrolled] = useState(false);
@@ -32,6 +36,51 @@ const Navigation = () => {
     setActiveLink(value);
   };
 
+  let homeButtons = null;
+
+  if (!pathname.includes("/blogs")) {
+    homeButtons = (
+      <>
+        <Nav.Link
+          href="#about"
+          className={
+            activeLink === "#about" ? "active navbar-link" : "navbar-link"
+          }
+          onClick={() => onUpdateActiveLink("about")}
+        >
+          About
+        </Nav.Link>
+        <Nav.Link
+          href="#skills"
+          className={
+            activeLink === "#skills" ? "active navbar-link" : "navbar-link"
+          }
+          onClick={() => onUpdateActiveLink("skills")}
+        >
+          Skills
+        </Nav.Link>
+        <Nav.Link
+          href="#projects"
+          className={
+            activeLink === "#projects" ? "active navbar-link" : "navbar-link"
+          }
+          onClick={() => onUpdateActiveLink("projects")}
+        >
+          Projects
+        </Nav.Link>
+        <Nav.Link
+          href="#contact"
+          className={
+            activeLink === "#contact" ? "active navbar-link" : "navbar-link"
+          }
+          onClick={() => onUpdateActiveLink("contact")}
+        >
+          Contact
+        </Nav.Link>
+      </>
+    );
+  }
+
   return (
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
@@ -53,44 +102,7 @@ const Navigation = () => {
                 Home
               </Nav.Link>
             </LinkContainer>
-            <Nav.Link
-              href="#about"
-              className={
-                activeLink === "#about" ? "active navbar-link" : "navbar-link"
-              }
-              onClick={() => onUpdateActiveLink("about")}
-            >
-              About
-            </Nav.Link>
-            <Nav.Link
-              href="#skills"
-              className={
-                activeLink === "#skills" ? "active navbar-link" : "navbar-link"
-              }
-              onClick={() => onUpdateActiveLink("skills")}
-            >
-              Skills
-            </Nav.Link>
-            <Nav.Link
-              href="#projects"
-              className={
-                activeLink === "#projects"
-                  ? "active navbar-link"
-                  : "navbar-link"
-              }
-              onClick={() => onUpdateActiveLink("projects")}
-            >
-              Projects
-            </Nav.Link>
-            <Nav.Link
-              href="#contact"
-              className={
-                activeLink === "#contact" ? "active navbar-link" : "navbar-link"
-              }
-              onClick={() => onUpdateActiveLink("contact")}
-            >
-              Contact
-            </Nav.Link>
+            {homeButtons}
 
             <LinkContainer to="/blogs">
               <Nav.Link
